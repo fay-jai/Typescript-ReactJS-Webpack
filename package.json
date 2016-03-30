@@ -1,9 +1,11 @@
 {
-  "name": "typescript-react-webpack",
-  "scripts": {},
-  "devDependencies": {
-    "ts-loader": "^0.8.1",
-    "typescript": "^1.8.9",
-    "webpack": "^1.12.14"
-  }
+    "name": "typescript-react-webpack",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "ts-loader": "^0.8.1",
+        "typescript": "^1.8.9",
+        "webpack": "^1.12.14"
+    }
 }
