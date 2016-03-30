@@ -4,11 +4,8 @@ module.exports = function(config) {
     config.set({
         basePath: "",
         frameworks: ["mocha", "chai", "sinon"],
-        files: [
-            "test/**/*.tsx"
-        ],
-        exclude: [
-        ],
+        files: ["test/**/*.tsx"],
+        exclude: [],
         preprocessors: {
             "test/**/*.tsx": ["webpack"]
         },
@@ -17,12 +14,12 @@ module.exports = function(config) {
             resolve: webpackConfig.resolve
         },
         reporters: ["mocha"],
-        port: 9876,
-        colors: true,
-        logLevel: config.LOG_INFO,
         autoWatch: true,
         browsers: ["PhantomJS"],
-        singleRun: true,
-        concurrency: Infinity
+        colors: true,
+        concurrency: Infinity,
+        logLevel: config.LOG_INFO,
+        port: 9876,
+        singleRun: true
     });
 };
