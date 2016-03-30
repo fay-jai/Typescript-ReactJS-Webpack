@@ -1,0 +1,8 @@
+{
+  "name": "typescript-react-webpack",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14"
+  }
+}
